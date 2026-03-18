@@ -13,7 +13,7 @@ public class Direction {
     }
 
     public static Direction north() {
-        return new Direction(0);
+        return new Direction(0); // Север соответствует 0 часов (12 часов)
     }
 
     public static Direction south() {
