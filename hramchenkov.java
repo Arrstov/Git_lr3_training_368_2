@@ -10,5 +10,7 @@ public class hramchenkov
         System.out.println("Git");
 		System.out.println("Git#1hramchenkov");
 		System.out.println("Git#2hramchenkov");
+		System.out.println("Git#1master");
+		System.out.println("Git#2master");
     }
 }

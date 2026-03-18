@@ -6,7 +6,7 @@ public class SimpleCalculator {
         result = 0;
     }
 
-    public void add(double value) {
+    public void add(double value) { //commit2
         result = result + value;
     }
 
@@ -14,7 +14,7 @@ public class SimpleCalculator {
         result = result - value;
     }
 
-    public void multiply(double value) {
+    public void multiply(double value) { 
         result = result * value;
     }
 
