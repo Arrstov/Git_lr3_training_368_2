@@ -63,7 +63,7 @@ public class Direction {
     }
 
     public boolean isOpposite(Direction other) {
-        return this.opposite().equals(this);
+        return this.opposite().equals(other); // Проверяем, что переданное направление противоположно текущему
     }
 
     @Override
