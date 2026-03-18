@@ -10,7 +10,7 @@ public class App {
     }
 
     public void printAll() {
-        for (int i = 0; i < log.size(); i++) {
+        for (int i = 0; i < log.size(); i++) { // первый пуки как в свою ветку
             System.out.println((i + 1) + ") " + log.get(i));
         }
     }
