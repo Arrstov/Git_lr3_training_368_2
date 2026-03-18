@@ -2,7 +2,7 @@ package Model.gamefield;
 
 public class Direction {
 
-    private final int _hours;
+    private final int _hours; // Направление хранится как "часы" на циферблате (0, 3, 6, 9)
 
     private Direction(int hours) {
 
