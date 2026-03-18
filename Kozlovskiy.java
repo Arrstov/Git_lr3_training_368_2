@@ -8,7 +8,7 @@ public class SimpleRobotApplication {//первый комментарий
 
         SwingUtilities.invokeLater(new Runnable() {// 3 комментарий
             public void run() {
-                GameFrame mainW = new GameFrame();
+                GameFrame mainW = new GameFrame();// еще один коммит
                 mainW.setVisible(true);
             }
         });
