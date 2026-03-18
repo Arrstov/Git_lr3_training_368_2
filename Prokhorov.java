@@ -17,7 +17,7 @@ public class App { // первый пуки каки в мастер
 
     public static void main(String[] args) {
         App app = new App();
-        app.add("First message");
+        app.add("First message"); // второй пуки как в мастер
         app.add("Second message");
         app.add("Third message");
         app.printAll();
