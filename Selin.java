@@ -7,9 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TimerTask;
 
+// Первый комит в мастер
 public abstract class Mine extends Unit{
     protected MyTimer _mineTimer;
 
+    // Первый комит в свою ветку
     private List<MineListener> _listeners = new ArrayList();
 
     protected long period;
@@ -31,6 +33,7 @@ public abstract class Mine extends Unit{
 
         _mineTimer.schedule(task, period);
     }
+    // 2 комит в мастер
     protected boolean canBelongTo(Cell owner) {
         if (owner == null) return false;
 
