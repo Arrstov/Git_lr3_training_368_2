@@ -1,4 +1,4 @@
-package View;
+package View; // Первый коммит в мастер
 
 import Model.gamefield.Cell;
 import Model.gamefield.Direction;
