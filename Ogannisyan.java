@@ -11,7 +11,7 @@ public abstract class MyTimer {
     public void addListener(TimerListener listener) {
         listeners.add(listener);
     }
-
+    // второй коммит в мастер
     protected void notifyListeners() {
         for (TimerListener l : listeners) {
             l.onTimerElapsed();
