@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class App { // первый пуки каки в мастер
 
     private final List<String> log = new ArrayList<>();
 
@@ -17,7 +17,7 @@ public class App {
 
     public static void main(String[] args) { // второй пуки как в свою ветку
         App app = new App();
-        app.add("First message");
+        app.add("First message"); // второй пуки как в мастер
         app.add("Second message");
         app.add("Third message");
         app.printAll();

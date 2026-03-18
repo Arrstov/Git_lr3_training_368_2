@@ -10,6 +10,7 @@ import java.util.TimerTask;
 public abstract class Mine extends Unit{
     protected MyTimer _mineTimer;
 
+    // Первый комит в свою ветку
     private List<MineListener> _listeners = new ArrayList();
 
     protected long period;
