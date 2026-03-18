@@ -2,7 +2,7 @@ import View.GameFrame;
 
 import javax.swing.*;
 
-public class SimpleRobotApplication {//
+public class SimpleRobotApplication {//первый комментарий
 
     public static void main(String[] args) {
 
