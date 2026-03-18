@@ -3,7 +3,7 @@ package View;
 import Model.gamefield.Cell; // Второй коммит в свою ветку
 import Model.gamefield.Direction;
 import Model.gamefield.GameField;
-
+// Второй коммит в мастер
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
