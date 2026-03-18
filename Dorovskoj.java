@@ -2,7 +2,7 @@ public class SimpleCalculator {
 
     private double result;
 
-    public SimpleCalculator() {
+    public SimpleCalculator() { //1 commit
         result = 0;
     }
 
@@ -10,7 +10,7 @@ public class SimpleCalculator {
         result = result + value;
     }
 
-    public void subtract(double value) {
+    public void subtract(double value) { //3 comit
         result = result - value;
     }
 
