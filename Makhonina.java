@@ -2,7 +2,7 @@ package Model.gamefield;
 
 public class Direction {
 
-    private final int _hours;
+    private final int _hours; // Направление хранится как "часы" на циферблате (0, 3, 6, 9)
 
     private Direction(int hours) {
 
@@ -13,7 +13,7 @@ public class Direction {
     }
 
     public static Direction north() {
-        return new Direction(0);
+        return new Direction(0); // Север соответствует 0 часов (12 часов)
     }
 
     public static Direction south() {
@@ -84,7 +84,7 @@ public class Direction {
         } else if (_hours == 6) {
             msg = "S";
         } else if(_hours == 9) {
-            msg = "E";
+            msg = "W"; // West (Запад)
         }
 
         return msg;
