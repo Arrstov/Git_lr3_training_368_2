@@ -2,7 +2,7 @@ public class SimpleCalculator {
 
     private double result;
 
-    public SimpleCalculator() {
+    public SimpleCalculator() { //1 commit
         result = 0;
     }
 
