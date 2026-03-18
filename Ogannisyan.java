@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public abstract class MyTimer {
-
+    // коммит в мастер
     private List<TimerListener> listeners = new ArrayList<>();
     protected Timer executor = new Timer();
 
